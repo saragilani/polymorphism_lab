@@ -25,5 +25,8 @@ public abstract class Vehicle {
     public void setNumberOfWheels(int numberOfWheels) {
         this.numberOfWheels = numberOfWheels;
     }
-
+//Method
+    public String beepHorn(){
+        return "BEEP!";
+    }
 }
